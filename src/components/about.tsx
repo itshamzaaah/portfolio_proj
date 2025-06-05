@@ -122,11 +122,11 @@ export function About() {
 
   const handleDownloadCV = () => {
   const link = document.createElement("a");
-  link.href = "https://drive.google.com/uc?export=download&id=1lmHeoqMs6brGfSltg6bK6Ug2ZKcTmPSn";
-  link.download = "Hamza_Maratib_CV.pdf";
-  document.body.appendChild(link); // Append to DOM to make it work on some browsers
+  link.href = "https://drive.google.com/uc?export=download&id=1er7DyA3718J5c3WticCjuF-OYK70FfSq";
+  link.download = "My_CV.pdf";
+  document.body.appendChild(link); // Required for Firefox
   link.click();
-  document.body.removeChild(link); // Clean up
+  document.body.removeChild(link);
 };
 
   return (
